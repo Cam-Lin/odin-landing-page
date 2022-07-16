@@ -65,11 +65,18 @@ button {
 #two {
     display: flex;
     flex-flow: column nowrap;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    align-items: center;
+    
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .figures {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex: 1;
 }
@@ -78,4 +85,34 @@ button {
     max-width: 200px;
     border: 3px solid #3882f6;
     border-radius: 5%;
+}
+
+#three {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.quotation {
+    max-width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    margin-bottom: 0;
+}
+
+.autor {
+    align-self: flex-end;
+    font-weight: bold;
 }
