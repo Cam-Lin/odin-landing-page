@@ -14,7 +14,7 @@ header {
     color: #f9faf8;
 }
 
-header, #one, #two, #three, #four {
+header, .container, footer {
     padding: 0.2rem 10rem 0.5rem 10rem;
 }
 
@@ -55,7 +55,7 @@ h3 {
 button {
     max-width: fit-content;
     padding: 0.3rem 1.2rem;
-    border-radius: 7%;
+    border-radius: 10px;
     background-color: #3882f6;
     border-style: none;
     color:#f9faf8;
@@ -84,7 +84,7 @@ h2 {
 .square-image {
     max-width: 200px;
     border: 3px solid #3882f6;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 #three {
@@ -115,4 +115,47 @@ h2 {
 .autor {
     align-self: flex-end;
     font-weight: bold;
+}
+
+#four {
+    height: 250px ;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.rectangle-action {
+    width: 1100px;
+    height: 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#action-button {
+    width: fit-content;
+    border-style: solid;
+    border-color: #f9faf8;
+}
+
+#call-text {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#reminder-text {
+    color:#e5e7eb;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-size: 12px;
 }
